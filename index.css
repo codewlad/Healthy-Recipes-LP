@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  text-align: center;
+  padding-top: 200px;
+  background-image: url(https://i.ibb.co/28sczkK/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+h1 {
+  font-family: 'Beth Ellen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 120px;
+  text-align: center;
+  color: #EBF1FB;
+  margin-bottom: 4px;
+}
+
+h1 span {
+  color: #5EEAD4;
+}
+
+p {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #EBF1FB;
+  margin-bottom: 72px;
+}
+
+a {
+  padding: 16px 32px;
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #EBF1FB;
+  text-decoration: none;
+  width: 193px;
+  height: 56px;
+}
+
+.button-LearnMore {
+  margin-right: 16px;
+}
+
+.button-LearnMore:hover {
+  color: #5EEAD4;
+}
+
+.button-Recipes {
+  background: #5EEAD4;
+  border-radius: 8px;
+  color: #0B0C0E;
+}
+
+.button-Recipes:hover {
+  color: #EBF1FB;
+}
